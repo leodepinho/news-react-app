@@ -25,14 +25,4 @@ const ArticleModel = mongoose.model('Article', ArticleSchema);
 
 resource(app,'','articles',ArticleModel).index().post().get();
 
-app.get('/', (req, res, next) => {
-  res.send('hello world');
-});
-// app.get('/articles/:id',(req, res, next) => {
-//   ArticleModel.findById(req.params.id, (err, article) => {
-//     console.log(article);
-//     res.json(article);
-//   });
-// })
-
 app.listen(3000);
