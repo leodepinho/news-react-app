@@ -1,0 +1,8 @@
+@import "theme/_variables.scss";
+@import "theme/_mixins.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
