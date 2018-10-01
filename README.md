@@ -1,4 +1,4 @@
-#React/Redux News app with express and mongoDB
+# React/Redux News app with express and mongoDB
 Simple application that shows a list of news and the details of each one of them.
 
 ## Install & Run
